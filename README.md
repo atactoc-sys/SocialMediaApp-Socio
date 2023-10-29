@@ -1,40 +1,62 @@
-# Socio
+# Project Name: socio
 
-Socio is a Node.js application with a list of dependencies that make it powerful and efficient. It is designed to help you with [add a brief description of your project here].
+## Version: 1.0.0
 
-## Table of Contents
+## Description
+This is a JavaScript project managed with npm (Node Package Manager). It includes various dependencies for server-side development, including libraries for authentication, data storage, and more.
 
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+### Server-Side Dependencies
+- bcrypt: 5.1.1
+- body-parser: 1.20.2
+- cors: 2.8.5
+- dotenv: 16.3.1
+- express: 4.18.2
+- gridfs-stream: 1.1.1
+- helmet: 7.0.0
+- jsonwebtoken: 9.0.1
+- mongoose: 7.4.5
+- morgan: 1.10.0
+- multer: 1.4.5-lts.1
+- multer-gridfs-storage: 5.0.2
 
-## Dependencies
+### Client-Side Dependencies
+- @emotion/react: 11.11.1
+- @emotion/styled: 11.11.0
+- @mui/icons-material: 5.14.7
+- @mui/material: 5.14.7
+- @reduxjs/toolkit: 1.9.5
+- @testing-library/jest-dom: 5.17.0
+- @testing-library/react: 13.4.0
+- @testing-library/user-event: 13.5.0
+- dotenv: 16.3.1
+- formik: 2.4.3
+- react: 18.2.0
+- react-dom: 18.2.0
+- react-dropzone: 14.2.3
+- react-redux: 8.1.2
+- react-router-dom: 6.15.0
+- react-scripts: 5.0.1
+- redux-persist: 6.0.0
+- web-vitals: 2.1.4
+- yup: 1.2.0
 
-Socio relies on the following Node.js dependencies:
+## Available Scripts
+- For the server, you can run:
+  - `npm start`: Starts the server using `node index.js`.
+  - `npm test`: Not specified.
+  
+- For the client, you can run:
+  - `npm start`: Runs the development server using `react-scripts`.
+  - `npm build`: Builds the production version of the client.
+  - `npm test`: Runs tests using `react-scripts`.
+  - `npm eject`: Ejects from `react-scripts` configuration.
 
-- [bcrypt](https://www.npmjs.com/package/bcrypt) ^5.1.1
-- [body-parser](https://www.npmjs.com/package/body-parser) ^1.20.2
-- [cors](https://www.npmjs.com/package/cors) ^2.8.5
-- [dotenv](https://www.npmjs.com/package/dotenv) ^16.3.1
-- [express](https://www.npmjs.com/package/express) ^4.18.2
-- [gridfs-stream](https://www.npmjs.com/package/gridfs-stream) ^1.1.1
-- [helmet](https://www.npmjs.com/package/helmet) ^7.0.0
-- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) ^9.0.1
-- [mongoose](https://www.npmjs.com/package/mongoose) ^7.4.5
-- [morgan](https://www.npmjs.com/package/morgan) ^1.10.0
-- [multer](https://www.npmjs.com/package/multer) ^1.4.5-lts.1
-- [multer-gridfs-storage](https://www.npmjs.com/package/multer-gridfs-storage) ^5.0.2
+## ESLint Configuration
+The server and client parts of this project may have different ESLint configurations based on their respective `.eslintrc` files.
 
-Make sure to install these dependencies to run Socio successfully.
+## Browserslist Configuration
+For the client, in production, it targets browsers with a usage of over 0.2%, excluding any that are considered "dead" or "op_mini all." In development, it targets the last versions of Chrome, Firefox, and Safari.
 
-## Installation
+---
 
-1. Clone this repository to your local machine: git clone https://github.com/yourusername/socio.git
-
-2. Navigate to the project's directory: cd socio
-
-
-3. Install the required dependencies:
-npm install
+This README provides an overview of the dependencies and scripts for both the server and client sides of the project. Be sure to include any additional details, usage instructions, or relevant information about your project. You can also organize and format it as needed for your specific project.
